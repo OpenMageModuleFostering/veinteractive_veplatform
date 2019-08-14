@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <veinteractive_tab translate="label" module="VeInteractive_VePlatform">
+            <label>Ve Interactive</label>
+            <sort_order>900</sort_order>
+        </veinteractive_tab>
+    </tabs>
+    <sections>
+        <veplatform_options translate="label" module="VeInteractive_VePlatform">
+            <label>Ve for Magento</label>
+            <tab>veinteractive_tab</tab>
+            <sort_order>100</sort_order>
+            <frontend_type>text</frontend_type>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <groups>
+                <settings translate="label">
+                    <label>Setting</label>
+                    <frontend_type>text</frontend_type>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                </settings>
+            </groups>
+        </veplatform_options>
+    </sections>
+</config>

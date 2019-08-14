@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/VeInteractive_VePlatform",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "The only automated marketing solution to solve your abandonment & conversion problems at every stage in the customer’s journey.",
+    "authors": [
+    {
+        "name": "VeInteractive",
+        "email": "hello@veinteractive.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

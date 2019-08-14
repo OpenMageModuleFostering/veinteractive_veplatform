@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<package>
+    <name>VeInteractive_VePlatform</name>
+    <version>16.3.5.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The only automated marketing solution to solve your abandonment &amp; conversion problems at every stage in the customer&#x2019;s journey.</summary>
+    <description>We believe data can change the way people buy and sell online.&#xD;
+&#xD;
+We&#x2019;re leading this shift by developing intuitive onsite tools that are powered by big data.&#xD;
+&#xD;
+These tools:&#xD;
+&#x2022;	Make converting customers easier for small online businesses&#xD;
+&#x2022;	Improve the onsite customer experience&#xD;
+&#x2022;	Give the eCommerce manager control to run their own campaigns&#xD;
+&#xD;
+The Problem:&#xD;
+The rise in website abandonment and cart abandonment means that businesses lose up to 70% of potential sales. &#xD;
+&#xD;
+Not only that, 3 out of 4 potential customers who place your products in their basket will then abandon.&#xD;
+&#xD;
+How does Ve solve this?&#xD;
+&#x2022;	Engages with users who are about to leave the site&#xD;
+&#x2022;	Retargets lost customers and bringing them back to your site&#xD;
+&#x2022;	Increases your website&#x2019;s revenue&#xD;
+&#x2022;	Improves your customer&#x2019;s experience onsite&#xD;
+&#xD;
+Benefits of Ve:&#xD;
+&#xD;
+&#x2022;	Turn passive visitors into customers &#x2013; engage with visitors on your site and once they&#x2019;ve left&#xD;
+&#x2022;	Easy to use &#x2013; simple setup, maintenance and transparent pricing model (pay on performance &#x2013; you only pay when customers convert)&#xD;
+&#x2022;	Data-driven solutions &#x2013; our insights into customer behaviour help us deliver the right message at the right time&#xD;
+&#x2022;	Centralised brand management &amp; customisable campaigns &#x2013; upload your logo and font for brand consistency, change copy &amp; messaging to suit the campaign.&#xD;
+&#x2022;	Will grow with your business &#x2013; take advantage of enhanced and new features as your business grows&#xD;
+&#x2022;	Comprehensive FAQs &#x2013; take advantage of our expertise with best practice guides and helpful tips&#xD;
+&#xD;
+How to get started in 3 simple steps:&#xD;
+&#xD;
+1.	Download our module and then follow our easy online tutorial to add a small piece of javascript (JS) to your website.&#xD;
+ &#xD;
+2.	Set up an account to access our optimisation and reporting platform. Follow the steps to create your first campaign and map your website (sounds a lot more complicated than it is&#x2026;)&#xD;
+&#xD;
+3.	You go live!&#xD;
+&#xD;
+Change your LinkedIn job title to &#x201C;Performance Marketeer&#x201D;, sit back and watch the money roll in.&#xD;
+&#xD;
+Pricing:&#xD;
+&#xD;
+&#x2022;	Ve&#x2019;s re-engagement solutions are currently on a CPA basis (you pay a % of the sales Ve generates for you)&#xD;
+&#xD;
+&#x2022;	Our display advertising solution is currently on a CPA and CPM basis, priced to suit your goals &#x2013; please contact us for more information: hello@veinteractive.com &#xD;
+&#xD;
+Download Ve, and you&#x2019;ll join 10,000+ happy clients internationally, some of them you may have heard of Barclays Bank, Lloyds Bank, Audi, Microsoft, Topman, Argos, Karen Millen, Toys R Us, The Economist, Thomas Cook, Liverpool FC.</description>
+    <notes>Bug fixes and new features.</notes>
+    <authors><author><name>VeInteractive</name><user>VeInteractive</user><email>hello@veinteractive.com</email></author></authors>
+    <date>2016-09-27</date>
+    <time>13:43:59</time>
+    <contents><target name="magecommunity"><dir name="VeInteractive"><dir name="VePlatform"><dir name="Block"><file name="ConfigFieldset.php" hash="ca8c49039027f532b787992d08973749"/><file name="Template.php" hash="c91641171beb7f0576d945f089d5667f"/><file name="Vemaster.php" hash="520d28f59510e192733e69bc5b0125aa"/><file name="Vepixel.php" hash="bd42fc22c2d21f71974c4729011cac9a"/><file name="Vetag.php" hash="53014245b2bdb09351b8c3869a5320aa"/></dir><dir name="Helper"><file name="Data.php" hash="e971530adb9ac327391799b93f9a9b56"/></dir><dir name="Model"><file name="Data.php" hash="0cabc54944143ca17e5520052553d453"/></dir><dir name="Observer"><file name="AdminUserLoadAfter.php" hash="a8db9ab19c5edd3c581c3881ebde4151"/><file name="Layout.php" hash="a7c3c4fa1af23c9c899b639b308901ce"/><file name="ThanksPage.php" hash="24f1b51b1b5ad686bb1585cecef55471"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="CustomController.php" hash="a750d73b628955ed505ce696c4022e6e"/></dir><file name="IndexController.php" hash="c4c54e305c24871224ca1c0dd2779fec"/></dir><dir name="etc"><file name="adminhtml.xml" hash="706c18254a6822f6fdd7c8c2d55b2d50"/><file name="config.xml" hash="41c76ea171997673fdf1f2d86432c93d"/><file name="system.xml" hash="427a47bb3b37f5cfa8b92a9cf02f0ce4"/></dir><dir name="templates"><file name="vemaster.phtml" hash="56f889fe6cb2d009f6ca5732a63bc1ae"/><file name="vepixel.phtml" hash="4f7d8b5c3edf4dd1bf78cced2a9d6bc2"/><file name="vetag.phtml" hash="7edd642a0215956d80ff16057b8343f7"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="VeInteractive_VePlatform.xml" hash="94e82b311d415d98a259398f63c9d58a"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="veplatform"><dir name="default"><dir name="template"><dir name="systemconfig"><dir name="veplatform_options_settings"><dir name="formfieldset"><file name="footer.phtml" hash="d41d8cd98f00b204e9800998ecf8427e"/><file name="header.phtml" hash="3063d88d81a4294e8b49061a49730793"/></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="veplatform.xml" hash="40f43c3c9ea67c2858419dcc6c240289"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="veplatform"><dir name="default"><dir name="css"><file name="veplatform.php" hash="c8b3eba05bfd21caaa706c52b8b169b7"/></dir><dir name="fonts"><file name="DINComp-Bold.ttf" hash="29a99a27fa48933c02cc47676e19ad1a"/><file name="DINComp-Light.ttf" hash="82bda6ffd6917610e787bdeaeddd811c"/><file name="DINComp-Medium.ttf" hash="03c28b69f3c99ca8fd4c011eb33cc22b"/><file name="DINComp.ttf" hash="3f1179a02f4ce1c3da780cae8fc8149d"/><file name="DINWeb-Bold.eot" hash="5f30c5806b6b26bcc46448a5ddca9b67"/><file name="DINWeb-Bold.woff" hash="a407b2546aeedeade21e31296945085e"/><file name="DINWeb-Light.eot" hash="03b09f3707b0faa147d0ef1e6e710904"/><file name="DINWeb-Light.woff" hash="6e72d4655039f1c33e2530f2340e0657"/><file name="DINWeb-Medium.eot" hash="c178e7c174e95ff9c95361395b9d325b"/><file name="DINWeb-Medium.woff" hash="08cf2c3f11f091aac767e788332bd1f4"/><file name="DINWeb.eot" hash="8daf4116fe83c7fa36454950832563e0"/><file name="DINWeb.woff" hash="f8df07a0857003759a5798eecfbd9324"/></dir><dir name="images"><file name="MagentoConnect.png" hash="d436b53de0a8e9b39d94d8f99dd8817b"/><file name="account-manager-logo.png" hash="856fd84bfca6dce479cb97602ac8573c"/><file name="apps-logo.png" hash="9007fd834d71f69a5d444189679f6bb4"/><file name="creatives-logo.png" hash="758e390ef9f209610916c514a15d4432"/><dir name="icons"><file name="envelope.png" hash="49484f1364fd34e900f8edffaffa4100"/><file name="phone.png" hash="deb42024869831e863ece1a4ab8e1786"/><file name="pike.png" hash="0bba667c071b9bfbb51ceae09d4c9f3d"/></dir><file name="icons-sdb320c34e8.png" hash="8bb70bdb0631bbc5196b60f20c82350e"/><file name="icons.png" hash="8bb70bdb0631bbc5196b60f20c82350e"/><file name="loading.gif" hash="29ffadf4420161e8213c5c582a6d4417"/><file name="main-logo.png" hash="9d326ad238477552f68833976eb75811"/><file name="product_selected.png" hash="bd1b368cc613df4808565d41dbb3b480"/><file name="radio_selected.png" hash="b257ac6f184cff8903285f9d6d9738d3"/><file name="radio_unselected.png" hash="bf02541872bfa223f2aeeb55b5cbd557"/><file name="ve-check.png" hash="c0a278358d23463819608a59f5657a5f"/><file name="ve-logo.png" hash="95abc640b662b4e163c011cb01692edc"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><dir name="veinteractive"><dir name="veplatform"><file name="veplatform.js" hash="c75ab5dcfce0fca27bd155b0ae6246f6"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><extension><name>PDO</name><min/><max/></extension></required></dependencies>
+</package>
