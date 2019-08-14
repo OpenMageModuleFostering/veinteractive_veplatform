@@ -1,34 +1,43 @@
 <script type="text/javascript">
-  var installVePlatform = (function () {
-    var controllerUrl = '<?php echo $this->getUrl('/custom/installVePlatform');?>';
-    new Ajax.Request(controllerUrl,
-      {
-        method: 'POST',
-        requestHeaders: {Accept: 'application/json'},
-        contentType: 'application/x-www-form-urlencoded',
-        onCreate: function (request) {
-          Ajax.Responders.unregister(varienLoaderHandler.handler);
-        },
-        onSuccess: function (transport) {
-          Ajax.Responders.register(varienLoaderHandler.handler);
-          var resp = JSON.parse(transport.responseText);
+    var installVePlatform = (function () {
+        var controllerUrl = '<?php echo $this->getUrl('/custom/installVePlatform');?>';
+        new Ajax.Request(controllerUrl,
+            {
+                method: 'POST',
+                requestHeaders: {Accept: 'application/json'},
+                contentType: 'application/x-www-form-urlencoded',
+                onCreate: function (request) {
+                    Ajax.Responders.unregister(varienLoaderHandler.handler);
+                },
+                onSuccess: function (transport) {
+                    Ajax.Responders.register(varienLoaderHandler.handler);
+                    var resp = JSON.parse(transport.responseText);
 
-          if (resp.redirectUrl) {
-            window.location.href = resp.redirectUrl;
-          } else {
-            $('loadingGif').style.display = "none";
-            $('ve').insert(resp.HtmlView);
-          }
-        }
-      });
+                    if (resp.redirectUrl) {
+                        window.location.href = resp.redirectUrl;
+                    } else {
+                        $('loadingGif').style.display = "none";
+                        $('ve').insert(resp.HtmlView);
+                    }
+                },
+                onFailure: function (transport) {
+                    Ajax.Responders.register(varienLoaderHandler.handler);
+                    var resp = JSON.parse(transport.responseText);
 
-  });
+                    if (resp.redirectUrl) {
+                        window.location.href = resp.redirectUrl;
+                    }
+                }
 
-  installVePlatform();
+            });
+
+    });
+
+    installVePlatform();
 </script>
 <?php include 'skin/adminhtml/veplatform/default/css/veplatform.php'; ?>
 <div id="ve">
     <div id="loadingGif">
-      <img src=<?php echo $this->getMyImagesUrl('loading.gif'); ?>>
+        <img src=<?php echo $this->getMyImagesUrl('loading.gif'); ?>>
     </div>
 </div>

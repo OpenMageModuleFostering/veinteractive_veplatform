@@ -2,7 +2,7 @@
 <config>
     <modules>
         <VeInteractive_VePlatform>
-            <version>16.3.5.0</version>
+            <version>16.4.5.0</version>
         </VeInteractive_VePlatform>
     </modules>
     <global>
@@ -89,7 +89,7 @@
                 <use>standard</use>
                 <args>
                     <module>VeInteractive_VePlatform</module>
-                    <frontname>veplatform</frontname>
+                    <frontName>veplatform</frontName>
                 </args>
             </veplatform>
         </routers>

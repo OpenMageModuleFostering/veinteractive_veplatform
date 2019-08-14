@@ -1,0 +1,14 @@
+{
+  "name": "Ve for Magento",
+  "description": "The only automated marketing solution to solve your abandonment & conversion problems at every stage in the customer's journey.",
+  "homepage": "https://www.veinteractive.com/",
+  "authors": [
+    {
+      "name": "Ve Interactive"
+    }
+  ],
+  "license": "proprietary",
+  "require": {
+    "microsoft/application-insights": "*"
+  }
+}
